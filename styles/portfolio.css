@@ -1,3 +1,57 @@
-body{
-    font-family: 'Open Sans', sans-serif;
+/* common styles */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0px;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 15px 20px;
+}
+
+/* header related styles */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #fff8f3;
+  padding: 50px 200px;
+}
+
+nav > ul {
+  display: flex;
+  text-align: center;
+  list-style: none;
+}
+
+nav ul li {
+  text-align: center;
+  margin-right: 15px;
+}
+ul li a {
+  text-decoration: none;
+  color: #474747;
+}
+.txt-color {
+  color: #fd6e0a;
+}
+/* banner relatted style */
+.banner {
+  display: flex;
+  background-color: #fff8f3;
+  padding: 30px 10px 30px 150px;
+  margin: 0px;
+}
+.profile-pic {
+  width: 584px;
+  height: 676px;
+  flex-shrink: 0;
 }
